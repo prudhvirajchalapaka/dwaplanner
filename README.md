@@ -149,7 +149,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 Gazebo should open and you will see the TurtleBot3 in a simple world with obstacles.
 
-![Gazebo Simulation](images/gazebo_simulation.png)
+![Gazebo Simulation](videos/video.mp4)
 *TurtleBot3 in Gazebo simulation environment*
 
 ### 3.3. Launch and Configure RViz2
