@@ -225,7 +225,7 @@ This visualization confirms that the robot is successfully navigating using the 
 ```
 dwaplanner/
 ├── src/
-│   └── dwa_solution.cpp
+│   └── dwa_solution.py
 ├── include/
 │   └── dwaplanner/
 ├── package.xml
