@@ -220,19 +220,6 @@ To see the trajectories that the planner is considering in real-time:
 
 This visualization confirms that the robot is successfully navigating using the custom DWA planner, developed entirely from scratch.
 
-## Repository Structure
-
-```
-dwaplanner/
-├── src/
-│   └── dwa_solution.py
-├── include/
-│   └── dwaplanner/
-├── package.xml
-├── CMakeLists.txt
-└── README.md
-```
-
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
