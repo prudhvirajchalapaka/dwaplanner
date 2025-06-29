@@ -27,7 +27,7 @@ This project is built on Ubuntu 22.04 (Jammy Jellyfish).
 
 **Link**: [Install Ubuntu Desktop Tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 
-![Ubuntu Installation](images/ubuntu_installation.png)
+
 *Ubuntu 22.04 installation process*
 
 ### 1.2. Install ROS 2 Humble and Gazebo
@@ -100,7 +100,7 @@ git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 ```
 
-![Repository Clone](images/repository_clone.png)
+
 *Cloning repositories into the workspace*
 
 ### 2.3. Build the Workspace
@@ -117,7 +117,7 @@ colcon build
 The build process may take a few minutes.
 sometime it may occurs warnings due ti version conflits. please ignore it. 
 
-![Workspace Build](images/workspace_build.png)
+
 *Building the ROS 2 workspace*
 
 ## Part 3: Simulation & Visualization
@@ -149,7 +149,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 Gazebo should open and you will see the TurtleBot3 in a simple world with obstacles.
 
-![Gazebo Simulation](videos/video.mp4)
+
 *TurtleBot3 in Gazebo simulation environment*
 
 ### 3.3. Launch and Configure RViz2
@@ -176,7 +176,6 @@ rviz2
 
 4. You should now see the red laser scan points from the robot's perspective.
 
-![RViz Configuration](images/rviz_configuration.png)
 *RViz2 configuration with laser scan visualization*
 
 ## Part 4: Running the Custom DWA Planner
@@ -204,7 +203,7 @@ ros2 run dwaplanner dwa_solution
 4. Observe the robot in Gazebo as it starts moving towards the goal, avoiding obstacles along the way.
 5. You will see meaningful debug messages logged in this terminal.
 
-![DWA Planner Execution](dwaplanner/videos/video.mp4)
+
 *Robot navigating using the custom DWA planner*
 
 ### 4.1. Visualizing the Planner's Trajectories
@@ -216,7 +215,7 @@ To see the trajectories that the planner is considering in real-time:
 3. Find the `/planned_paths` topic and select **MarkerArray**. Click OK.
 4. You will now see lines radiating from the robot, representing the predicted paths. The chosen path is typically highlighted in a different color (e.g., green).
 
-![Trajectory Visualization](images/trajectory_visualization.png)
+
 *Real-time visualization of planned trajectories in RViz*
 
 This visualization confirms that the robot is successfully navigating using the custom DWA planner, developed entirely from scratch.
@@ -237,10 +236,6 @@ dwaplanner/
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
