@@ -97,6 +97,7 @@ git clone https://github.com/prudhvirajchalapaka/dwaplanner.git
 # Clone the required TurtleBot3 simulation packages for ROS 2 Humble
 git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
 git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 ```
 
 ![Repository Clone](images/repository_clone.png)
@@ -114,6 +115,7 @@ colcon build
 ```
 
 The build process may take a few minutes.
+sometime it may occurs warnings due ti version conflits. please ignore it. 
 
 ![Workspace Build](images/workspace_build.png)
 *Building the ROS 2 workspace*
