@@ -1,0 +1,19 @@
+# ROS 2 build and install artifacts
+build/
+install/
+log/
+
+# Python specific
+*.pyc
+__pycache__/
+
+# C++ specific
+*.o
+*.so
+*.a
+*~
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
