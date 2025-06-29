@@ -204,7 +204,7 @@ ros2 run dwaplanner dwa_solution
 4. Observe the robot in Gazebo as it starts moving towards the goal, avoiding obstacles along the way.
 5. You will see meaningful debug messages logged in this terminal.
 
-![DWA Planner Execution](videos/dwa_planner_execution.gif)
+![DWA Planner Execution](dwaplanner/videos/video.mp4)
 *Robot navigating using the custom DWA planner*
 
 ### 4.1. Visualizing the Planner's Trajectories
